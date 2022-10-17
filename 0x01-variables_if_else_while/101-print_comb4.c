@@ -19,7 +19,7 @@ if (n < m && m < k)
 {putchar(n + '0');
 putchar(m + '0');
 putchar(k + '0');
-if ((n != 7 && m != 8) || (n == 7 && m == 8 && k != 9))
+ if (n != 7 || (n == 7  && k != 9))
 {putchar(',');
 putchar(' ');
 }
