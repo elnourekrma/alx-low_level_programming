@@ -1,23 +1,16 @@
 #include "main.h"
-
-
-
 /**
-
- * main - check the code
-
+ * main - writes string "_purchar"
+ * recive frome funchtion _putchar.c The character to print
  *
-
- * Return: Always 0.
-
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-int main(void)
-  
+void print_alphabet(void)
+{char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-  
-  print_alphabet();
-  
-  return (0);
-  
+_putchar(c);
+}
+_putchar('\n');
 }
