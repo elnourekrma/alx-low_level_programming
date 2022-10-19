@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - writes string "_purchar"
- * recive frome funchtion _putchar.c The character to print
- *
+ * print_alphabet - writes string "_purchar"
+ *Description: recive frome funchtion _putchar.c The character to print
+ * function that pronts small aphabets
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
