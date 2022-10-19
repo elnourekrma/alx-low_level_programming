@@ -9,11 +9,13 @@
 int main (void)
 {char c, str [] = "_putchar";
 int i = 0;
+char n = '\n';
 while (str[i] != '\0')
 {
 c = str[i];
 _putchar(c);
 i++;
 }
+_putchar(n);
 return(0);
 }
