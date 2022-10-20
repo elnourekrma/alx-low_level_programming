@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _mul - function that multi
+ * mul - function that multi
  *Description: recive frome funchtion _putchar.c The character to print
  *@a: is the character
  *@b: is another number
