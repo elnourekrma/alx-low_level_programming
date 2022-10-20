@@ -9,16 +9,16 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 void print_diagonal(int n)
-{int i = 0,k;
-while ( i < n && n > 0)
+{int i = 0, k;
+while (i < n && n > 0)
 {
 k = 0;
 while (k <= i)
 {
-_putchar(' ');;
+_putchar(' ');
 k++;
 }
- _putchar('\\');
+_putchar('\\');
 _putchar('\n');
 i++;
 }
