@@ -5,6 +5,7 @@
 
 
 #include <stdio.h>
+char *_strncat(char *dest, char *src, int n);
 void print_rev(char *s);
 void _puts(char *str);
 void swap_int(int *a, int *b);
