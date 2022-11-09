@@ -11,9 +11,9 @@ int main(int argc, char __attribute__((__unused__)) *argv[])
 {int i, m, sum = 0;
 for (i = 1; i < argc; i++)
 {
-for(m = 0; argv[i][m]; m++)
+for (m = 0; argv[i][m]; m++)
 {
-if(argv[i][m] < '0' || argv[i][m] < '9')
+if (argv[i][m] < '0' || argv[i][m] < '9')
 {
 sum += atoi(argv[i]);
 }
